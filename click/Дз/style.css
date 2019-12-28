@@ -1,0 +1,33 @@
+body {
+    background-color: #030303 !important;
+}
+.text-main li a {
+    color: white;
+    font-size: 14px;
+    padding: 20p;
+    margin: 10px
+}
+.text-supporting li a {
+    color: darkgrey;
+    margin: 0px;
+}
+.images {
+    margin-left: 36px; 
+}
+.h-100m {
+    min-height: 100vh;
+}
+.div-frame {
+    padding-top: 30px;
+}
+#frame {
+    padding: 32px;
+    background-color: #ccc;
+}
+#indented {
+    padding: 0px;
+    margin: 0px;
+}
+.indents {
+    padding: 20px;
+}
