@@ -48,7 +48,7 @@
     width: 480px;
     }    
     .btn-group {
-    margin-left: 460px
+    margin-left: 400px
     }
     .text-1 {
     font-size: 14px
@@ -61,7 +61,7 @@
     font-size: 10px;
     }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
     table {
     font-size: 6px;
     }
