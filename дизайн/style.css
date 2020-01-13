@@ -129,5 +129,6 @@ table {
     font-size: 1px;
 }
 .btn-group {
-    margin-left: 1400px
+    margin-left:;
+    float: right
 }

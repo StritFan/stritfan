@@ -5,9 +5,6 @@
     .example img {
     width: 800px;
     }
-    .btn-group {
-    margin-left: 800px
-    }
     .text-1 {
     font-size: 20px
     }
@@ -25,9 +22,6 @@
     }
     .example img {
     width: 640px;
-    }
-    .btn-group {
-    margin-left: 640px
     }
     .text-1 {
     font-size: 16px
@@ -47,9 +41,6 @@
     .example img {
     width: 480px;
     }    
-    .btn-group {
-    margin-left: 400px
-    }
     .text-1 {
     font-size: 14px
     }
@@ -68,9 +59,6 @@
     .example img {
     width: 320px;
     }    
-    .btn-group {
-    margin-left: 200px
-    }
     .text-1 {
     font-size: 12px
     }
