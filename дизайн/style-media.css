@@ -1,0 +1,24 @@
+@media screen and (max-width: 1024px) {
+    table {
+        font-size: 16px;
+    }
+    .example img {
+    width: 800px;
+    }
+}
+@media screen and (max-width: 800px) {
+    table {
+        font-size: 12px;
+    }
+    .example img {
+    width: 640px;
+    }
+}
+@media screen and (max-width: 640px) {
+    table {
+        font-size: 9px;
+    }
+    .example img {
+    width: 480px;
+    }
+}
