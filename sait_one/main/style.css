@@ -1,0 +1,25 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.text-nav {
+    color: #333333;
+}
+li a {
+    color: #ffcc00;
+    text-shadow: -1px 2px 1px #c4ac4d;
+}
+li a:hover {
+    color: gold;
+    text-shadow: -1px 1px 0px gold;
+}
+li a:active {
+    color: gold;
+    text-shadow: -1px 1px 0px gold;
+}
+nav {
+    box-shadow: 0px 6px 0px #215226;
+}
+.bg div{
+    background-color: #bababa!important;
+}
