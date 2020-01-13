@@ -13,6 +13,11 @@ p {
 .text-2 {
     font-size: 20px
 }
+.display-text {
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 1.2;
+}
 .jumbotron-1 {
     padding: 32px 16px;
     margin-bottom: 2rem;

@@ -5,6 +5,19 @@
     .example img {
     width: 800px;
     }
+    .btn-group {
+    margin-left: 460px
+    }
+    .text-1 {
+    font-size: 20px
+    }
+    .display-text {
+    font-size: 32px;
+    font-weight: 400;
+    }
+    .text-small {
+    font-size: 15px;
+    }
 }
 @media screen and (max-width: 800px) {
     table {
@@ -13,6 +26,19 @@
     .example img {
     width: 640px;
     }
+    .btn-group {
+    margin-left: 290px
+    }
+    .text-1 {
+    font-size: 16px
+    }
+    .display-text {
+    font-size: 28px;
+    font-weight: 400;
+    }
+    .text-small {
+    font-size: 12px;
+    }
 }
 @media screen and (max-width: 640px) {
     table {
@@ -20,5 +46,18 @@
     }
     .example img {
     width: 480px;
+    }    
+    .btn-group {
+    margin-left: 200px
+    }
+    .text-1 {
+    font-size: 14px
+    }
+    .display-text {
+    font-size: 24px;
+    font-weight: 400;
+    }
+    .text-small {
+    font-size: 10px;
     }
 }
