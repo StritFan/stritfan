@@ -147,7 +147,7 @@ table {
     border-color: #007bff;
 }
 .show>.anim-1.dropdown-toggle:focus {
-    box-shadow: 0px 0px 20px 10px #007bff;
+    box-shadow: 0px 0px 20px 6px #007bff;
 }
 .anim-2 {
     -webkit-transition: all .3s linear;
@@ -158,5 +158,5 @@ table {
     background-color: #dc3545;
     color: black;
     border-color: #dc3545;
-    box-shadow: 0px 0px 20px 10px #dc3545;
+    box-shadow: 0px 0px 20px 6px #dc3545;
 }
