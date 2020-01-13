@@ -3,6 +3,7 @@
     font-size: 22px;
     margin: 0px;
     padding: 0px;
+    font-family: cursive
 }
 p {
     margin: 0px 0px 8px
@@ -11,6 +12,9 @@ p {
     font-size: 24px
 }
 .text-2 {
+    font-size: 20px
+}
+.text-3 {
     font-size: 20px
 }
 .display-text {
@@ -106,8 +110,6 @@ table {
 .bg{
     color: #fff;
     background-color: #343a40;
-}
-.bg {
     border-radius: 25px;
 }
 .card-body {
@@ -129,9 +131,28 @@ table {
     font-size: 1px;
 }
 .btn-group {
-    margin-left:;
     float: right
 }
 .image {
     float: right
+}
+.anim-1 {
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    transition: all .3s linear;
+}
+.anim-1:hover {
+    background-color: aqua;
+    color: black;
+    border-color: aqua;
+}
+.anim-2 {
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    transition: all .3s linear;
+}
+.anim-2:hover {
+    background-color: #dc3545;
+    color: black;
+    border-color: #dc3545;
 }
