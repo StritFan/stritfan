@@ -15,6 +15,12 @@
     .text-small {
     font-size: 15px;
     }
+    .h1 {
+    font-size: 36px;
+    }
+    .h2 {
+        font-size: 30px;
+    }
 }
 @media screen and (max-width: 800px) {
     table {
@@ -44,12 +50,24 @@
     .text-1 {
     font-size: 14px
     }
+    .text-2 {
+        font-size: 14px;
+    }
     .display-text {
     font-size: 24px;
     font-weight: 400;
     }
     .text-small {
     font-size: 10px;
+    }
+    .h1 {
+    font-size: 28px;
+    }
+    .h2 {
+        font-size: 20px;
+    }
+    .col-md-3 {
+        width: 140px;
     }
 }
 @media screen and (max-width: 360px) {
@@ -71,5 +89,14 @@
     }
     .text-small {
     font-size: 8px;
+    }
+    .h1 {
+    font-size: 20px;
+    }
+    .h2 {
+        font-size: 16px;
+    }
+    .col-md-3 {
+        width: 120px;
     }
 }
