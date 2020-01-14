@@ -1,0 +1,148 @@
+@media screen and (max-width: 1024px) {
+    table {
+        font-size: 16px;
+    }
+    .example img {
+        width: 800px;
+    }
+    .text-1 {
+        font-size: 20px
+    }
+    .display-text {
+        font-size: 32px;
+        font-weight: 400;
+    }
+    .text-small {
+        font-size: 15px;
+    }
+    .h1 {
+        font-size: 36px;
+    }
+    .h2 {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 800px) {
+    table {
+        font-size: 10px;
+    }
+    .example {
+        width: 540px;
+    }
+    .example img {
+        width: 540px;
+    }
+    .text-1 {
+        font-size: 16px
+    }
+    .display-text {
+        font-size: 28px;
+        font-weight: 400;
+    }
+    .text-small {
+        font-size: 12px;
+    }
+    .text-2 {
+        font-size: 14px;
+    }
+    .display-text {
+        font-size: 40px;
+        font-weight: 400;
+    }
+    .text-small {
+        font-size: 16px;
+    }
+    .h1 {
+        font-size: 36px;
+    }
+    .h2 {
+        font-size: 24px;
+    }
+    .col-md-3 {
+        width: 150px;
+    }
+    .col-md-12 {
+        width: 80%;
+        padding: 0px 0px;
+    }
+    .image {
+        width: 25px;
+        height: 25px;
+    }
+    .card-body {
+        padding: 12px;
+    }
+}
+@media screen and (max-width: 640px) {
+    table {
+        font-size: 9px;
+    }
+    .example img {
+        width: 480px;
+    }    
+    .text-1 {
+        font-size: 14px
+    }
+    .text-2 {
+        font-size: 14px;
+    }
+    .display-text {
+        font-size: 24px;
+        font-weight: 400;
+    }
+    .text-small {
+        font-size: 10px;
+    }
+    .h1 {
+        font-size: 28px;
+    }
+    .h2 {
+        font-size: 20px;
+    }
+    .col-md-3 {
+        width: 140px;
+    }
+}
+@media screen and (max-width: 420px) {
+    table {
+        font-size: 6px;
+    }
+    .example {
+        width: 300px
+    }
+    .example img {
+        width: 300px;
+    }    
+    .text-1 {
+        font-size: 12px
+    }
+    .text-2 {
+        font-size: 10px;
+    }
+    .display-text {
+        font-size: 20px;
+        font-weight: 300;
+    }
+    .text-small {
+        font-size: 8px;
+    }
+    .h1 {
+        font-size: 20px;
+    }
+    .h2 {
+        font-size: 16px;
+    }
+    .col-md-3 {
+        width: 120px;
+    }
+    .dropdown-menu.show {
+        min-width: 50px;
+    }
+    .image {
+        width: 20px;
+        height: 20px;
+    }
+    .card-body {
+        padding: 8px;
+    }
+}

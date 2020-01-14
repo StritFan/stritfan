@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Пример на bootstrap 4: Макет jumbotron с навигационной панели и базовая система разметки.">
+
+        <title></title>
+
+        <!-- Bootstrap код CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        
+        <link rel="shortcut icon" href="res/icon.png">
+
+        <!-- Подключение CSS -->
+        <link href="css/style.css" rel="stylesheet">
+        
+        <!-- Подключение медия CSS / Подключение адаптации -->
+        <link href="css/style-media.css" rel="stylesheet">
+    </head>
+    <body>
+        <main role="main">
+            <div class="jumbotron-1">
+                <div class="btn-group dropleft">
+                        <button type="button" class="btn btn-primary dropdown-toggle text-2 anim-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            language
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item text-2" id="a-1" href="#">Русский</a>
+                            <hr/>
+                            <a class="dropdown-item text-2" id="a-1" href="#">English</a>
+                        </div>
+                </div>
+                <div class="container">
+                    <h1 class="display-text">ММАЭС</h1>
+                    <h6 class="text-small">Государственный проект</h6>
+                    <p class="text-1">Междунородная Майнкравтовская Атомная ЭлектроСтанция (ММАЭС) - Это проект Майнкрафт Сервера CatLand RP. ММАЭС являеться проектом всех городов CLRP3, распологаеться на территории города Мирный Атом (Близ. города Сити 18).</p>
+                    <p>
+                        <a class="btn btn-primary btn-lg text-2 anim-2" href="http://catlandrp.ru/" role="button" target="_blank">CatLand RP &raquo;</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="container d-flex">
+                <div class="row text-center text-2 justify-content-center">
+                    <div class="col-md-12">
+                        <table class="table table-sm table-dark bg">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Название</th>
+                                    <th scope="col">Энергоблок</th>
+                                    <th scope="col">Тип ректора</th>
+                                    <th scope="col">Мощность, МВт/ч</th>
+                                    <th scope="col">Дата начала стоительства</th>
+                                    <th scope="col">Дата окончания стоительства</th>
+                                    <th scope="col">Дата введения в эксплуотацию</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">ММАЭС-1</th>
+                                    <td>1</td>
+                                    <td>РБМК-1000</td>
+                                    <td>1000</td>
+                                    <td>2020 год. [CLRP3]</td>
+                                    <td>2020 год (План). [CLRP3]</td>
+                                    <td>2020 год (План). [CLRP3]</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <br/>
+                    </div>
+                    
+                    <div class="col-md-12">
+                        <p>Директор проетка: <a id="a-1" href="https://vk.com/id263559554" target="_blank">AlexP_ (Ниикита Фролов)</a></p>
+                        <p>Дизайнеры проетка: <a id="a-1" href="https://vk.com/id311838491" target="_blank">LovDashaLove</a>, 
+                        <a id="a-1" href="https://vk.com/id408477493" target="_blank">Ivanyel</a>, 
+                        <a id="a-1" href="#" target="_blank">dagooch09</a></p>
+                        <br/>
+                    </div>
+                    
+                    <div class="col-md-12">
+                        <p class="h1">Работники АЭС:</p>
+                        <p class="h2">ММАЭС-1:</p>
+                    </div>
+                    <div class="col-md-3 card m-2 bg">
+                        <div class="card-body">
+                            <p class="font-weight-bold">Директор АС</p> 
+                            <p>AlexP_</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 card m-2 bg">
+                        <div class="card-body">
+                            <p class="font-weight-bold">ГИС</p>
+                            <p>AlexP_</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 card m-2 bg">
+                        <div class="card-body">
+                            <p class="font-weight-bold">ЗГИэ-2</p>
+                            <p>Ivanyel</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-12">
+                        <p class="h2">Персонал Смены А:</p>
+                    </div>
+                    <div class="col-md-3 card m-2 bg">
+                        <div class="card-body">
+                            <p class="font-weight-bold">НСАС \ НСБ</p> 
+                            <p>АС AlexP_</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 card m-2 bg">
+                        <div class="card-body">
+                            <p class="font-weight-bold">НСРЦ</p>
+                            <p>
+                                <a id="a-2" href="#" target="_blank">Заявка Открыта</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 card m-2 bg">
+                        <div class="card-body">
+                            <p class="font-weight-bold">ВИУР</p> 
+                            <p>Ivanyel</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 card m-2 bg">
+                        <div class="card-body">
+                            <p class="font-weight-bold">НСТЦ</p> 
+                            <p>
+                                <a id="a-2" href="#" target="_blank">Заявка Открыта</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 card m-2 bg">
+                        <div class="card-body">
+                            <p class="font-weight-bold">ВИУТ</p> 
+                            <p>LovDashaLov</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 card m-2 bg">
+                        <div class="card-body">
+                            <p class="font-weight-bold">НСЦТАИ</p> 
+                            <p>
+                                <a id="a-2" href="#" target="_blank">Заявка Открыта</a>
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-12">
+                        <p class="h2">Персонал Смены Б:</p>
+                    </div>
+                    <div class="col-md-3 card m-2 bg">
+                        <div class="card-body">
+                            <p class="font-weight-bold">НСАС \ НСБ</p> 
+                            <p>
+                                <a id="a-2" href="#" target="_blank">Заявка Открыта</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 card m-2 bg">
+                        <div class="card-body">
+                            <p class="font-weight-bold">НСРЦ</p> 
+                            <p>
+                                <a id="a-2" href="#" target="_blank">Заявка Открыта</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 card m-2 bg">
+                        <div class="card-body">
+                            <p class="font-weight-bold">ВИУР</p> 
+                            <p>
+                                <a id="a-2" href="#" target="_blank">Заявка Открыта</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 card m-2 bg">
+                        <div class="card-body">
+                            <p class="font-weight-bold">НСТЦ</p> 
+                            <p>
+                                <a id="a-2" href="#" target="_blank">Заявка Открыта</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 card m-2 bg">
+                        <div class="card-body">
+                            <p class="font-weight-bold">ВИУТ</p> 
+                            <p>
+                                <a id="a-2" href="#" target="_blank">Заявка Открыта</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 card m-2 bg">
+                        <div class="card-body">
+                            <p class="font-weight-bold">НСЦТАИ</p> 
+                            <p>
+                                <a id="a-2" href="#" target="_blank">Заявка Открыта</a>
+                            </p>
+                        </div>
+                    </div>
+                    <p class="h2 my-4 col-md-12">Пример с Ростовской АЭС-4:</p>
+                    <div class="card mx-1 example my-1 bg">
+                        <div class="card-img-top">
+                            <img src="images/RAES-4%20example.png" alt="Пример">
+                        </div>
+                        <div class="card-body">
+                            <p>Директор АС - Директор Атомной Станции</p>
+                            <p>ГИС - Главный Инженер Станции</p>
+                            <p>ЗГИэ-2 - Заместитель Главного Инженера по Эксплуатации</p>
+                            <p>НСАС - Начальник Смены Атомной Станции</p>
+                            <p>НСБ - Начальник Смены Блока</p>
+                            <p>НСРЦ - Нацальник Смены Реакторного Цеха</p>
+                            <p>ВИУР - Ведущий Инженер Управления Реактором</p>
+                            <p>НСТЦ - Начальник Смены Турбинного Цеха</p>
+                            <p>ВИУТ - Ведущий Инженер Управления Турбиной</p>
+                            <p>НСЦТАИ - Начальник Смены Цеха Тепловой Автоматики и Измерений</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br/>
+            <div class="jumbotron-2">
+                <div class="container text-2">
+                    CatLand RP © 2018-2020
+                    <a class="mx-r" href="https://vk.com/catlandrpofficial">
+                        <img class="image" src="images/VK.png" alt="ВКонтакте">
+                    </a>
+                </div>
+            </div>
+        </main>
+        
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+</html>

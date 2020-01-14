@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Пример на bootstrap 4: Макет jumbotron с навигационной панели и базовая система разметки.">
+
+        <title></title>
+
+        <!-- Bootstrap код CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        
+        <link rel="shortcut icon" href="res/icon.png">
+
+        <!-- Подключение CSS -->
+        <link href="css/style.css" rel="stylesheet">
+        
+        <!-- Подключение медия CSS / Подключение адаптации -->
+        <link href="css/style-media.css" rel="stylesheet">
+    </head>
+    <body>
+        <main role="main">
+            <div class="jumbotron-1">
+                <div class="btn-group dropleft">
+                        <button type="button" class="btn btn-primary dropdown-toggle text-2 anim-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Язык
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item text-2" id="a-1" href="#">English</a>
+                            <hr/>
+                            <a class="dropdown-item text-2" id="a-1" href="#">Русский</a>
+                        </div>
+                </div>
+                <div class="container">
+                    <h1 class="display-text">IMNPP</h1>
+                    <h6 class="text-small">State project</h6>
+                    <p class="text-1">International Minecraft Nuclear Power Plant (IMNPP) - It's a project of minecraft server CatLand RP. IMNPP is a project of all respublics of CLRP3, it's situated in Mirny Atom (Near City 18).</p>
+                    <p>
+                        <a class="btn btn-primary btn-lg text-2 anim-2" href="http://catlandrp.ru/" role="button" target="_blank">CatLand RP &raquo;</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="container d-flex">
+                <div class="row text-center text-2 justify-content-center">
+                    <div class="col-md-12">
+                        <table class="table table-sm table-dark bg">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Title</th>
+                                    <th scope="col">Power unit</th>
+                                    <th scope="col">Type of reactor</th>
+                                    <th scope="col">Power MW / h</th>
+                                    <th scope="col">Construction start date</th>
+                                    <th scope="col">Date of completion</th>
+                                    <th scope="col">Date of commissioning</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">IMNPP-1</th>
+                                    <td>1</td>
+                                    <td>RBMK-1000</td>
+                                    <td>1000</td>
+                                    <td>2020 year (Plan).</td>
+                                    <td>2020 year (Plan). [CLRP3]</td>
+                                    <td>2020 year (Plan). [CLRP3]</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <br/>
+                    </div>
+                    
+                    <div class="col-md-12">
+                        <p>The Director of the Project: <a id="a-1" href="https://vk.com/id263559554" target="_blank">AlexP_ (Nikita Frolov)</a></p>
+                        <p>The Designer of the Project: <a id="a-1" href="https://vk.com/id311838491" target="_blank">LovDashaLove</a>, 
+                        <a id="a-1" href="https://vk.com/id408477493" target="_blank">Ivanyel</a>, 
+                        <a id="a-1" href="#" target="_blank">dagooch09</a></p>
+                        <br/>
+                    </div>
+                    
+                    <div class="col-md-12">
+                        <p class="h1">NPP Staff:</p>
+                        <p class="h2">IMNPP-1:</p>
+                    </div>
+                    <div class="col-md-3 card m-2 bg">
+                        <div class="card-body">
+                            <p class="font-weight-bold">DNPP</p> 
+                            <p>AlexP_</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 card m-2 bg">
+                        <div class="card-body">
+                            <p class="font-weight-bold">MEP</p>
+                            <p>AlexP_</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 card m-2 bg">
+                        <div class="card-body">
+                            <p class="font-weight-bold">DCEo</p>
+                            <p>Ivanyel</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-12">
+                        <p class="h2">Shift A:</p>
+                    </div>
+                    <div class="col-md-3 card m-2 bg">
+                        <div class="card-body">
+                            <p class="font-weight-bold">CSNPP \ CSB</p> 
+                            <p>АС AlexP_</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 card m-2 bg">
+                        <div class="card-body">
+                            <p class="font-weight-bold">CSRW</p>
+                            <p>
+                                <a id="a-2" href="#" target="_blank">Application Open</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 card m-2 bg">
+                        <div class="card-body">
+                            <p class="font-weight-bold">MECR</p> 
+                            <p>Ivanyel</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 card m-2 bg">
+                        <div class="card-body">
+                            <p class="font-weight-bold">CSTW</p> 
+                            <p>
+                                <a id="a-2" href="#" target="_blank">Application Open</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 card m-2 bg">
+                        <div class="card-body">
+                            <p class="font-weight-bold">MECT</p> 
+                            <p>LovDashaLov</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 card m-2 bg">
+                        <div class="card-body">
+                            <p class="font-weight-bold">CSHAM</p> 
+                            <p>
+                                <a id="a-2" href="#" target="_blank">Application Open</a>
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-12">
+                        <p class="h2">Shift B:</p>
+                    </div>
+                    <div class="col-md-3 card m-2 bg">
+                        <div class="card-body">
+                            <p class="font-weight-bold">CSNPP \ CSB</p> 
+                            <p>
+                                <a id="a-2" href="#" target="_blank">Application Open</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 card m-2 bg">
+                        <div class="card-body">
+                            <p class="font-weight-bold">CSRW</p> 
+                            <p>
+                                <a id="a-2" href="#" target="_blank">Application Open</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 card m-2 bg">
+                        <div class="card-body">
+                            <p class="font-weight-bold">MECR</p> 
+                            <p>
+                                <a id="a-2" href="#" target="_blank">Application Open</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 card m-2 bg">
+                        <div class="card-body">
+                            <p class="font-weight-bold">CSTW</p> 
+                            <p>
+                                <a id="a-2" href="#" target="_blank">Application Open</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 card m-2 bg">
+                        <div class="card-body">
+                            <p class="font-weight-bold">MECT</p> 
+                            <p>
+                                <a id="a-2" href="#" target="_blank">Application Open</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 card m-2 bg">
+                        <div class="card-body">
+                            <p class="font-weight-bold">CSHAM</p> 
+                            <p>
+                                <a id="a-2" href="#" target="_blank">Application Open</a>
+                            </p>
+                        </div>
+                    </div>
+                    <p class="h2 my-4 col-md-12">Example from Rostov NPP-4:</p>
+                    <div class="card mx-1 example my-1 bg">
+                        <div class="card-img-top">
+                            <img src="images/RAES-4%20example.png" alt="Пример">
+                        </div>
+                        <div class="card-body">
+                            <p>DNPP - Director of NPP</p>
+                            <p>MEP - Main Ingener of Plant</p>
+                            <p>DCEo - Deputy of Chief Engineer of Operation</p>
+                            <p>CSNPP - Chief of the Shist of the NPP</p>
+                            <p>CSB - Chief of the Shist of the Block</p>
+                            <p>CSRW - Chief of the Shist of the Reactor Workshop</p>
+                            <p>MECR - Main Engeneer of Control of the Reactor</p>
+                            <p>CSTW - Chief of the Shist of the Turbine Workshop</p>
+                            <p>MECT - Main Engeneer of Control of the Turbine</p>
+                            <p>CSHAM - Chief of the Shist of the Heating Automatics and Measurements</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br/>
+            <div class="jumbotron-2">
+                <div class="container text-2">
+                    CatLand RP © 2018-2020
+                    <a class="mx-r" href="https://vk.com/catlandrpofficial">
+                        <img class="image" src="images/VK.png" alt="ВКонтакте">
+                    </a>
+                </div>
+            </div>
+        </main>
+        
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+</html>
