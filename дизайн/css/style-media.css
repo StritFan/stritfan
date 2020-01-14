@@ -105,7 +105,8 @@
 }
 @media screen and (max-width: 420px) {
     table {
-        font-size: 6px;
+        font-size: 5px;
+        min-width: 50px;
     }
     .example {
         width: 300px
