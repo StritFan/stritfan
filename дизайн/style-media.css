@@ -24,10 +24,13 @@
 }
 @media screen and (max-width: 800px) {
     table {
-        font-size: 12px;
+        font-size: 10px;
+    }
+    .example {
+        width: 540px;
     }
     .example img {
-        width: 640px;
+        width: 540px;
     }
     .text-1 {
         font-size: 16px
@@ -38,6 +41,36 @@
     }
     .text-small {
         font-size: 12px;
+    }
+    .text-2 {
+        font-size: 14px;
+    }
+    .display-text {
+        font-size: 40px;
+        font-weight: 400;
+    }
+    .text-small {
+        font-size: 16px;
+    }
+    .h1 {
+        font-size: 36px;
+    }
+    .h2 {
+        font-size: 24px;
+    }
+    .col-md-3 {
+        width: 150px;
+    }
+    .col-md-12 {
+        width: 80%;
+        padding: 0px 0px;
+    }
+    .image {
+        width: 25px;
+        height: 25px;
+    }
+    .card-body {
+        padding: 12px;
     }
 }
 @media screen and (max-width: 640px) {
