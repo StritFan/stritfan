@@ -19,9 +19,6 @@ p {
 .text-2 {
     font-size: 20px
 }
-.text-3 {
-    font-size: 20px
-}
 .display-text {
     font-size: 48px;
     font-weight: 300;
@@ -42,7 +39,6 @@ p {
 #a-1 {
     color: #e74c3c;
     position: relative;
-    font-weight: 600;
     display: inline-block;
     -webkit-transition: all .3s linear;
     -moz-transition: all .3s linear;
@@ -77,7 +73,6 @@ p {
 #a-2 {
     color: #007bff;
     position: relative;
-    font-weight: 600;
     display: inline-block;
     -webkit-transition: all .3s linear;
     -moz-transition: all .3s linear;
@@ -116,8 +111,8 @@ table {
 .bg{
     color: #fff;
     background-color: #343a40;
-    border-radius: 25px;
-    box-shadow: 3px 3px 2px 3px #898a89;
+    border-radius: 20px;
+    box-shadow: 0px 0px 0px 1.6px #898a89;
 }
 .card-body {
     padding: 20px;
@@ -141,7 +136,9 @@ table {
     float: right
 }
 .image {
-    float: right
+    float: right;
+    width: 30px;
+    height: 30px;
 }
 .anim-1 {
     -webkit-transition: all .3s linear;
