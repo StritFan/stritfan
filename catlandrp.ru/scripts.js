@@ -1,0 +1,1 @@
+//location='https://google.com/';

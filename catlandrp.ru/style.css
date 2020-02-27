@@ -1,0 +1,222 @@
+.navi {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding: 14px;
+    background-color: rgb(235, 235, 235);
+    box-shadow: 0px 1px 10px 10px rgba(0,0,0,0.75);
+}
+.nav a {
+    float: left;
+    padding: ;
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    
+}
+.nav a:hover {
+    color: #000;
+    background: #f8bbd0;
+}
+
+a {
+	color: rgb(255, 117, 24);
+}
+
+header {
+	font-size: 40px;
+	text-align: left;
+	padding: 10px;
+	background-color: rgb(235, 235, 235);
+	box-shadow: 1px 1px 7px rgb(68, 68, 68);
+	font-weight: bold;
+
+	font-family: "Segoe UI";
+    font-weight: 400;
+    src: local("Segoe UI");
+
+	border-radius: 5px;
+}
+footer {
+	font-size: 20px;
+	text-align: left;
+	padding: 10px;
+	background-color: rgb(235, 235, 235);
+	box-shadow: 1px 1px 25px rgb(68, 68, 68);
+	font-weight: bold;
+	
+	font-family: "Segoe UI";
+    font-weight: 400;
+    src: local("Segoe UI");
+	
+	transition: 0.4s all;
+}
+footer:hover {
+	box-shadow: 1px 1px 15px rgb(68, 68, 68);
+}
+
+
+
+
+.image {
+	transition: 0.4s all;
+	
+	box-shadow: 1px 1px 10px rgb(68, 68, 68);
+	border-radius: 10px;
+}
+
+.image:hover{
+	box-shadow: 1px 1px 5px rgb(68, 68, 68);
+	border-radius: 50px;
+
+	size: 100%;
+}
+
+
+
+.menu {
+	font-weight: bold;
+	
+	font-family: "Century Gothic";
+    font-weight: 400;
+    src: local("Century Gothic");
+
+	border-radius: 7px;
+	transition: 0.4s all;
+}
+
+.menu:hover {
+	background-color: rgb(235, 235, 235, 0.4);
+	box-shadow: 1px 1px 7px rgb(68, 68, 68);
+}
+
+
+
+.text {
+	text-align: center;
+	font-weight: bold;
+	
+	font-family: "Segoe UI";
+    font-weight: 400;
+    src: local("Segoe UI");
+}
+
+.headline {
+	font-size: 25px;
+	font-weight: bold;
+
+	font-family: "Segoe UI";
+    font-weight: 400;
+    src: local("Segoe UI");
+}
+.smallheadline {
+    padding-top: 100px;
+	font-size: 20px;
+	font-weight: bold;
+		
+	font-family: "Segoe UI";
+    font-weight: 400;
+    src: local("Segoe UI");
+}
+
+.explanation {
+	font-size: 20px;
+	font-weight: bolder;
+
+	font-family: "Segoe UI";
+    font-weight: 400;
+    src: local("Segoe UI");
+}
+
+.pagelink {
+	font-size: 24px;
+	font-weight: bold;
+	color: black;
+
+	font-family: "Segoe UI";
+    font-weight: 400;
+    src: local("Segoe UI");
+	
+	text-decoration: none;
+}
+.pagelink:hover {
+	text-decoration: none;
+    color: 
+}
+.nav a{
+    padding-left: 30px;
+}
+.navbar div{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    padding: 14px;
+    background-color: rgb(235, 235, 235);
+    box-shadow: 0px 1px 4px 7px rgba(0,0,0,0.75);
+    margin: 0px 0px 0px 0px;
+}
+.menus {
+    float: left;
+    padding: 12px 14px;
+    display: block;
+    color: #fff;
+    font-size: 18px;
+}
+
+.attention {
+	color: rgb(255, 10, 10);
+	font-size: 22px;
+}
+
+#center {
+	display: block;
+	margin: 0 auto;
+	
+	text-align: center;
+}
+
+.sign {
+	font-family: "Segoe UI";
+    font-weight: 400;
+    src: local("Segoe UI");
+
+	text-align: right;
+	font-style: italic;
+	font-size: 25px;
+	padding-right: 20px;
+	text-decoration: underline;
+}
+
+.letter {
+	font-weight: bold;
+
+	font-family: "Segoe UI";
+    font-weight: 400;
+    src: local("Segoe UI");
+
+	border-radius: 7px;
+	transition: 0.6s all;
+	background-color: rgb(235, 235, 235);
+	box-shadow: 1px 1px 5px rgb(68, 68, 68);
+	
+}
+.letter:hover {
+	box-shadow: 1px 1px 15px rgb(68, 68, 68);
+}
+
+.button {
+	background-color: rgb(255, 117, 24);
+	color: red;
+}
+
+.bottom__cookie-block {
+    width: 100%;
+    height: 48px;
+    background-color: #ffffff;
+    display: none;
+    position: fixed;
+    bottom: 0;
+    z-index: 100000;
+    text-align: center;
+    -webkit-transform: translateZ(0);
+}

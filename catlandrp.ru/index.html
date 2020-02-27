@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<link rel="shortcut icon" href="images/icon.png">
+		<title>CatLand RP - Приватный Майнкрафт Сервер</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="scripts.js"></script>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	</head>
+	<body>
+	    <div class="navi">
+            <img src="images/icon.png" width="64" height="64" alt="Логотип" align="left">
+            <a href="index.php" class="pagelink">Главная</a>
+            <a href="https://www.donationalerts.com/r/alexp_yt" class="pagelink" target="_blank">Поддержать Проект</a>
+            <a href="about.html" class="pagelink">О нас</a>
+            <a href="agreement.html" class="pagelink">Пользовательское Соглашение</a>
+            <a href="faq.html" class="pagelink">FAQ</a>
+            <a href="https://vk.com/catlandrpofficial" class="pagelink" target="_blank">Блог</a>
+            <a href="plugins.html" class="pagelink">Сборка Сервера</a>
+        </div>
+        <div class="smallheadline" id="center">
+            <p class="headline">Покупка визы на <a href="https://vk.com/catlandrpofficial">сервер CatLand RP</a>:</p><br>
+            <form method="POST" action="gotoyandex.php">
+            <!-- http://catlandrp.ru/yandexmoney.php?link=%22http://catlandrp.ru/addwh.php?nick=Cat&ds=imcat1852&email=cat@cat.cat&sex=1&pass=ImCatBeliveMe%22 -->
+                <script type="text/javascript"> 
+                    function checkNick(input) { 
+                        var value = input.value; 
+                        var rep = /[:','\s','А-я']/; 
+                        if (rep.test(value)) { 
+                            value = value.replace(rep, ''); 
+                            input.value = value;
+                        } 
+                    } 
+                </script> 
+                Ваш Игровой Псевдоним (Ник):<br>
+                    <input required placeholder="SUPERKRUTOINICK" class="textbox" name="nick" onkeyup="return checkNick(this);">
+                        <a class="attention">!</a><br>
+                <br>
+
+                📱 Ваша учётная запись Discord:<br>
+                    <input required placeholder="Wampus#0001" class="textbox" name="discord">
+                        <a class="attention">!</a><br>
+                <br>
+
+                📧 Ваш e-mail:<br>
+                    <input required type="email" placeholder="imcat@website.site" class="textbox" name="email">
+                        <a class="attention">!</a><br>
+                <br>
+
+                🧒 О себе (1-3 предложения):<br>
+                    <input placeholder="Я кот. Я пёс. Я Nah." class="textbox" name="about"><br>
+                <br>
+
+                📄 Пользовательское соглашение:<br>
+                    <input required type="checkbox">✏ Я подтверждаю, что прочитал(а) <a href="agreement.html" target="_blank">настоящее пользовательское соглашение</a> и полностью соглашаюсь с ним 
+                        <a class="attention">!</a><br>
+                <br>
+
+                👤 Выберите ваш пол: <a class="attention">!</a><br>
+                <input type="radio" name="sex" value="1" required>👦 Мужской<br>
+                <input type="radio" name="sex" value="2" required>👧 Женский<br>
+                <br>
+
+                👨‍💻 Придумайте пароль: <br>
+                <input type="password" maxlength="25" name="password">
+                    <a class="attention">!</a>
+                <br><br>
+
+                🤖 Пройдите капчу: <a class="attention">!</a><br><br>
+                <script src="https://www.google.com/recaptcha/api.js"></script>
+                <div class="g-recaptcha" data-sitekey="6LfhK7gUAAAAAM7IImK0cpMV_s5R7mivXI6HnmuB" align="center"></div><br>
+
+                <hr>
+                <a class="attention">!</a> - Обязательное поле<br>
+                <hr>
+
+                💱 Выберите способ оплаты:<br>
+                <big>💰 Сумма: 15₽</big><br>
+
+                <?php
+                    function convert($from, $value, $to)
+                    {
+                        $url = "https://free.currconv.com/api/v7/convert?q=".$from."_".$to."&value=10&apiKey=3915931144b96719ce25&compact=ultra";
+
+                        $result = file_get_contents($url);
+                        $ans = preg_replace("/[^,.0-9]/", '', $result);
+                        $ansFloat = (float)$ans;
+
+                        $valueFloat = (float)$value;
+
+                        $converted = $value * $ansFloat;
+                        return $converted;
+                    }
+                    echo round(convert("RUB", 15, "UAH"), 2)."₴, ".round(convert("RUB", 15, "BYN"), 2)."Br или ".round(convert("RUB", 15, "KZT"), 2)."₸";
+                ?>
+                <br><br>
+                <input type="radio" name="paymentType" value="PC" required>💸 Яндекс.Деньги<br>
+                <input type="radio" name="paymentType" value="AC" required>💳 Банковская Карта (Яндекс.Деньги)<br>
+                <input type="radio" name="paymentType" value="AC" required>💳 Банковская Карта (QIWI)<br>
+                <input type="radio" name="paymentType" value="MC" required>📱 QIWI<br>
+                <!--https://oplata.qiwi.com/form?invoiceUid=59145dce-ab87-4c53-8dfd-743f68b26d71-->
+                <hr>
+                <input align="center" type="submit" name="submit_btn" value="Оформить Визу!">
+                <br><br>
+            </form>
+            <script type="text/javascript" id="cookieinfo"
+                src="//catlandrp.ru/cookieinfo.min.js"
+                data-bg="#645862"
+                data-fg="#FFFFFF"
+                data-link="#F1D600"
+                data-message="Продалжая использовать сайт вы принимаете соглашение об использовании cookie!"
+                data-moreinfo="http://catlandrp.ru/cookie.html"
+                data-linkmsg="Прдробнее"
+                data-close-text="Хорошо">
+            </script>
+            <footer align="bottom">
+                CatLand RP © 2018-2020
+                <a href="https://vk.com/catlandrpofficial"><img src="images/logos/VK.png" width="25" height="25" alt="ВКонтакте" align="right" class="image"></a>
+            </footer>
+		</div>
+	</body>
+</html>
