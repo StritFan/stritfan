@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CatLand RP</title>
+    
+    <link rel="shortcut icon" href="images/icon.png">
+    
+    <link rel="stylesheet" href="style_moe.css">
+    
+            <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navs">
+        <img class="otstyp" src="images/cats.png" alt="Логотип" align="left">
+        <div align="right">
+            <a href="index-glav.html" class="pagelink">Главная</a>
+            <a href="index-pokypka.html" class="pagelink">Оформление визы</a>
+            <a href="https://www.donationalerts.com/r/alexp_yt" class="pagelink" target="_blank">Поддержать Проект</a>
+            <a href="agreement.html" class="pagelink">Пользовательское Соглашение</a>
+            <a href="faq.html" class="pagelink">FAQ</a>
+            <a href="catlandrp.ru/gov" class="pagelink">Государство</a>
+        </div>
+        
+    </nav>
+    <div class="button">
+        <div class="btn-group dropup">
+            <button type="button" class="buttons dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Язык
+            </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Русский</a>
+                <a class="dropdown-item" href="#">Англиский</a>
+                <a class="dropdown-item" href="#">что-то</a>
+                <a class="dropdown-item" href="#">что-то</a>
+                <a class="dropdown-item" href="#">что-то</a>
+                <a class="dropdown-item" href="#">что-то</a>
+
+            </div>
+        </div>
+    </div>
+			
+        <div class="plata mx-auto">
+            <h3 class="section__suptitle">Виза сервера CatLand RP</h3>
+            <h2 class="section__title">Заполните все данные и дайти денег :3</h2>
+            <div class="card h5 ">
+				<div class="card-body row">
+				    <div class="col-sm">
+                        <p>Ваш ник:</p>
+                        <script type="text/javascript"> 
+                            function checkNick(input) { 
+                                var value = input.value; 
+                                var rep = /[:','\s','А-я']/; 
+                                if (rep.test(value)) { 
+                                value = value.replace(rep, ''); 
+                                input.value = value; 
+                                } 
+                            } 
+                        </script> 
+                        <input required="" placeholder="SamylLuchiiNickVMire" name="nick" onkeyup="return checkNick(this);">
+                    </div>
+                    <div class="col-sm">
+                        <p>📳 Ваш замечательный аккаунт Discord:</p>
+                        <input required="" placeholder="Wampus#0001" name="discord">
+                    </div>
+                </div>
+    <hr/>
+                <div class="card-body row">
+                    <div class="col-sm">
+                        <p>📧 Ваш замечательный e-mail:</p>
+                        <input required="" type="email" placeholder="alexp@catlandrp.ru" name="email">
+                    </div>
+                    <div class="col-sm">
+                        <p>😜 Ваш замечательный вы:</p>
+                        <input placeholder="Я кот. Я пёс. Я Nah." name="about"><br>
+                    </div>
+                </div>
+    <hr/>
+                <div class="card-body row">
+                    <div class="col-sm">
+                        <p>📜 Наще замечательное пользовательское соглашение:</p>
+                        <div class="radio-item">
+                            <input type="radio" name="blank" value="" required="" id="blank">Я подтверждаю, что прочитал(а)  <a href="agreement.html" target="_blank">настоящее пользовательское соглашение</a> и полностью соглашаюсь с ним.
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <p>🚻 Ваш замечательный пол:</p>
+                        <div class="radio-item">
+                            <input type="radio" name="sex" value="1" required="" id="he">
+                            <label for="he">👦 Мужской</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" name="sex" value="2" required="" id="she">
+                            <label for="she">👧 Женский</label>
+                        </div>
+                    </div>
+                </div>
+    <hr/>
+                <div class="card-body row">
+                    <div class="col-sm">
+                        <p>🔐 Ваш замечательный пароль:</p>
+                        <input type="password" maxlength="25" name="password">
+                    </div>
+                    <div class="col-sm">
+                        <p>🔐 Ваш замечательный повтор пароля:</p>
+                        <input type="password_repeat" maxlength="25" name="password">
+                    </div>
+                </div>
+    <hr/>
+                <div class="card-body row">
+                    <div class="text-center col-sm">
+                        <p>💵 Ваш замечательный способ оплаты:</p>
+                        <h2 class="display-3 py-3">Цена: 15₽.</h2>
+                    </div>
+                    <div class="col-sm text-center">
+                        <div class="radio-item">
+                            <input type="radio" name="paymentType" value="PC" required="" id="yandex_account">
+                            <label for="yandex_account">Счёт Яндекс.Деньги</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" name="paymentType" value="AC" required="" id="yandex_card">
+                            <label for="yandex_card">Банковская Карта через Яндекс.Деньги</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" name="paymentType" value="AC" required="" id="qiwi_card">
+                            <label for="qiwi_card">Банковская Карта через QIWI</label>
+                        </div> <br>
+                        <div class="radio-item">
+                            <input type="radio" name="paymentType" value="MC" required="" id="qiwi_account">
+                            <label for="qiwi_account">Счёт QIWI</label>
+                        </div>
+                    </div>
+                </div>
+    <hr/>
+                <div class="card-body h5 row mx-auto">
+                    <div class="col-12">
+                        <a class="buttons" href="#">Оплатить</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
