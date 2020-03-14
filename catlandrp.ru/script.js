@@ -84,7 +84,7 @@
           _indicatorItems[currentIndicator].classList.remove('active');
           _indicatorItems[_indicatorIndex].classList.add('active');
         };
-
+        // мой вк https://vk.com/stritfan
         // функция, осуществляющая переход к слайду по его порядковому номеру
         var _moveTo = function (index) {
           var i = 0, direction = (index > _indicatorIndex) ? 'next' : 'prev';
